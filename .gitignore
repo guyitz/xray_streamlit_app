@@ -1,3 +1,4 @@
 .venv
-diif*
+diff*
 ./data
+__pycache__*

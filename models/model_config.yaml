@@ -1,0 +1,46 @@
+models:
+  - name: efficientnet_eyal_data
+    path: ./models/efficientnet_final_trained_eyal_data.pth
+    architecture: efficientnet_b3
+    input_size: [300, 300]
+    class_map:
+      0: pneumonia
+      1: normal
+      2: covid
+
+  - name: efficientnet_full_kaggle_data
+    path: ./models/kaggle_data_efficientnet_trained_model.pth
+    architecture: efficientnet_b3
+    input_size: [300, 300]
+    class_map:
+      2: pneumonia
+      1: normal
+      0: covid
+
+  - name: efficientnet_kaggle_and_eyal_data
+    path: ./models/kaggle_and_eyal_data_efficientnet_trained_model.pth
+    architecture: efficientnet_b3
+    input_size: [300, 300]
+    class_map:
+      2: pneumonia
+      1: normal
+      0: covid
+
+  - name: vgg16_bn_full_kaggle_data
+    path: ./models/kaggle_data_vgg16_bn_trained_model.pth
+    architecture: vgg16
+    input_size: [224, 224]
+    class_map:
+      0: covid
+      2: pneumonia
+      1: normal
+
+
+  - name: vgg16_bn_kaggle_and_eyal_data
+    path: ./models/kaggle_and_eyal_data_vgg16_bn_trained_model.pth
+    architecture: vgg16
+    input_size: [224, 224]
+    class_map:
+      0: covid
+      2: pneumonia
+      1: normal
