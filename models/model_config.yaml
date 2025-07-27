@@ -27,7 +27,7 @@ models:
       0: covid
 
   - name: vgg16_bn_full_kaggle_data
-    path: ./models/kaggle_data_vgg16_bn_trained_model.pth
+    url: https://github.com/guyitz/xray_streamlit_app/releases/download/v1.0.1/kaggle_data_vgg16_bn_trained_model.pth
     architecture: vgg16
     input_size: [224, 224]
     class_map:
@@ -37,7 +37,7 @@ models:
 
 
   - name: vgg16_bn_kaggle_and_eyal_data
-    path: ./models/kaggle_and_eyal_data_vgg16_bn_trained_model.pth
+    url: https://github.com/guyitz/xray_streamlit_app/releases/download/v1.0.2/kaggle_and_eyal_data_vgg16_bn_trained_model.pth
     architecture: vgg16
     input_size: [224, 224]
     class_map:
