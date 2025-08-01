@@ -1,7 +1,8 @@
 # Report: Chest X-ray Image Classification for Medical Diagnosis
 
-**Eliyahu Rosenfeld – 324462514**
-**Guy Itzhaki – 60877693**
+**Eliyahu Rosenfeld**
+
+**Guy Itzhaki**
 
 ## **1. Introduction**
 
